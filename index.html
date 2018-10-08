@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+             <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
+     <link rel="stylesheet" type="text/css" href="loan.css">
+    <title> Mortage </title>
+    <script src="amort.js"></script>
+
+  </head>
+  <body>
+    <label for="principal"><b>Principal:&nbsp;</b></label>
+      <input type="text" placeholder="Loan Amount"id="principal" />
+    <br />
+    <label for="interest"><b>Interest rate:&nbsp;</b></label>
+      <input type="text" placeholder="5.5 = 5.5%" id="interest" />
+    <br />
+    <label for="terms"><b>Terms:&nbsp;</b></label>
+      <input type="tems" placeholder="Number of Months"id="terms" />
+    <br />
+      <input type="button" value="Calculate" onclick="getValues()" />
+    <form>
+      <fieldset>
+        <legend>Outputs</legend>
+          <div id="Result"></div>
+        </fieldset>
+    </form>
+
+  </body>
+</html>
